@@ -161,12 +161,12 @@ namespace MyApp // Note: actual namespace depends on the project name.
             //n3, passato csolo come out, non mi interessa il suo valore in ingresso. Conta solo 
             //che sono obbligato ad assegnargli un valore in uscita
 
-            n3 = 3000;
+            n3 = 3000; 
 
             return 0;
         }
 
-        //Questao metodo torna due valori, un bool e un int
+        //Questo metodo torna due valori, un bool e un int
         static (bool, int) ValoriMultipli(int a, int b)
         {
             //mettendo i valori tra parentesi tonde, si costruisce un valore di ritorno multiplo
